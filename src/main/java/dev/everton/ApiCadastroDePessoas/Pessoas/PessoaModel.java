@@ -18,6 +18,7 @@ public class PessoaModel {
     private Long id;
     private String nome;
     private int idade;
+    @Column(unique = true)
     private String email;
     @ManyToOne // Uma pessoa pode ter uma profissão
     @JoinColumn(name = "profissoes_id") // Foreing key
