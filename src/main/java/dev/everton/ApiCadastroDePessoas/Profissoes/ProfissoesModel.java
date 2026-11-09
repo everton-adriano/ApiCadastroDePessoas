@@ -10,7 +10,7 @@ import java.util.List;
 @Entity // Diz que essa classe é uma entidade no banco de dados
 @Table(name = "tb_profissoes")
 @NoArgsConstructor // Cria um construtor vazio
-@AllArgsConstructor // Cria um construtor com todos os argunmentos
+@AllArgsConstructor // Cria um construtor com todos os argumentos
 @Data // Cria Getters e Setters
 
 public class ProfissoesModel {
